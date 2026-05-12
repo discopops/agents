@@ -1,6 +1,6 @@
 # Complete Plugin Reference
 
-Browse all **78 focused, single-purpose plugins** organized by category. 77 plugins ship from this repo; 1 additional plugin (`qa-orchestra`) is hosted in an external repository and distributed via a `git-subdir` marketplace entry.
+Browse all **80 focused, single-purpose plugins** organized by category, plus 1 externally-hosted plugin (`qa-orchestra`) distributed via a `git-subdir` marketplace entry — 81 plugins total.
 
 > 💡 **Also recommended:** [Pensyve](https://github.com/major7apps/pensyve) — universal memory runtime for Claude Code. Distributed from its own marketplace (`major7apps/pensyve`) so updates ship directly from the source. Install with `/plugin marketplace add major7apps/pensyve` then `/plugin install pensyve@major7apps-pensyve`.
 
@@ -382,7 +382,7 @@ Each installed plugin loads **only its specific agents and commands** into Claud
 
 ## See Also
 
-- [Agent Skills](./agent-skills.md) - 150 specialized skills across plugins
+- [Agent Skills](./agent-skills.md) - 153 specialized skills across plugins
 - [Agent Reference](./agents.md) - Complete agent catalog
 - [Usage Guide](./usage.md) - Commands and workflows
 - [Architecture](./architecture.md) - Design principles

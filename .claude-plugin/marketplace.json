@@ -6,7 +6,7 @@
     "url": "https://github.com/wshobson"
   },
   "metadata": {
-    "description": "Production-ready workflow orchestration with 79 focused plugins, 184 specialized agents, and 150 skills - optimized for granular installation and minimal token usage",
+    "description": "Production-ready workflow orchestration with 80 focused plugins, 185 specialized agents, and 153 skills - optimized for granular installation and minimal token usage",
     "version": "1.6.0"
   },
   "plugins": [
@@ -1068,6 +1068,20 @@
       "license": "MIT",
       "category": "governance",
       "keywords": ["review", "governance", "cedar", "receipts", "human-approval", "pr-review", "ci-guard"]
+    },
+    {
+      "name": "ship-mate",
+      "source": "./plugins/ship-mate",
+      "description": "Your AI development teammate. Turns a story file into a shipped, reviewed, and tested feature via orchestrator → architect → developer → PR reviewer → QA → Playwright.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pranay Yadav",
+        "email": "pranayyadav08@gmail.com",
+        "url": "https://github.com/gh0sty02"
+      },
+      "license": "MIT",
+      "category": "workflows",
+      "keywords": ["pipeline", "automation", "orchestration", "code-review", "qa", "playwright", "multi-agent", "dev-workflow"]
     }
   ]
 }
