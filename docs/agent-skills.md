@@ -1,6 +1,6 @@
 # Agent Skills
 
-Agent Skills are modular packages that extend Claude's capabilities with specialized domain knowledge, following Anthropic's [Agent Skills Specification](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md). This plugin ecosystem includes **153 specialized skills** across 40 plugins, enabling progressive disclosure and efficient token usage.
+Agent Skills are modular packages that extend Claude's capabilities with specialized domain knowledge, following Anthropic's [Agent Skills Specification](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md). This plugin ecosystem includes **155 local specialized skills** across 41 plugins, enabling progressive disclosure and efficient token usage.
 
 ## Overview
 
@@ -380,7 +380,7 @@ fastapi-templates skill → Supplies production-ready templates
 
 ## Specification Compliance
 
-All 153 skills follow the [Agent Skills Specification](https://agentskills.io/specification):
+All 155 skills follow the [Agent Skills Specification](https://agentskills.io/specification):
 
 - ✓ Required `name` field (hyphen-case)
 - ✓ Required `description` field with "Use when" clause
@@ -394,14 +394,17 @@ To add a skill to a plugin:
 
 1. Create `plugins/{plugin-name}/skills/{skill-name}/SKILL.md`
 2. Add YAML frontmatter:
+
    ```yaml
    ---
    name: skill-name
    description: What the skill does. Use when [activation trigger].
    ---
    ```
+
 3. Write comprehensive skill content using progressive disclosure
 4. Add skill path to `marketplace.json`:
+
    ```json
    {
      "name": "plugin-name",
